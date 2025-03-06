@@ -182,6 +182,8 @@ header p{
  .parentS {
     justify-content: stretch;
     height: 600px;
+    padding: 15px;
+    gap: 30px;
  }
 
  .parentS li {
@@ -189,7 +191,6 @@ header p{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin: 15px;
     padding: 30px 15px ;
     height: 570px;
  }
