@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="./assets/css/form.css" />
+
+  <title>Flexbox</title>
+</head>
+<body>
+  <header>
+    <h1>FlexBox</h1>
+    <p>Tester les principales propiétés de Flexbox</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Default</h2>
+      <ul class="parentA">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+
+      <h2>flex-direction: row-reverse</h2>
+      <ul class="parentB">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+
+      <h2>flex-direction: column</h2>
+      <ul class="parentC">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+
+      <h2>flex-direction: column-reverse</h2>
+      <ul class="parentD">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+
+      <h2>nowrap</h2>
+      <ul class="parentE">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+
+      <h2>wrap</h2>
+      <ul class="parentF">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+
+      <h2>align-items: center</h2>
+      <ul class="parentG">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+
+      <h2>align-items: flex-start</h2>
+      <ul class="parentH">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+
+      <h2>align-items: flex-end</h2>
+      <ul class="parentI">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+
+      <h2>Justify-content: center</h2>
+      <ul class="parentJ">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+
+      <h2>Justify-content: flex-start</h2>
+      <ul class="parentK">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+
+      <h2>Justify-content: flex-end</h2>
+      <ul class="parentL">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+
+      <h2>Justify-content: space-between</h2>
+      <ul class="parentM">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+
+      <h2>Justify-content: space-around</h2>
+      <ul class="parentN">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+
+      <h2>Justify-content: space-evenly</h2>
+      <ul class="parentO">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+
+      <h2>order</h2>
+      <ul class="parentP">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+
+      <h2>grow</h2>
+      <ul class="parentQ">
+        <li class="cardsNotGrow">A</li>
+        <li class="cardsNotGrow">B</li>
+        <li class="cardGrow">C</li>
+        <li class="cardsNotGrow">D</li>
+        <li class="cardsNotGrow">E</li>
+        <li class="cardsNotGrow">F</li>
+      </ul>
+
+      <h2>shrink</h2>
+      <ul class="parentR">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+        <li>F</li>
+      </ul>
+
+      <h2>grow</h2>
+      <ul class="parentS">
+        <li class="boxGrowA">
+          <h3>flex-grow: 1</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, cumque, suscipit excepturi modi officiis expedita at ea aliquam perspiciatis quia perferendis eum quisquam! Fugit, a, illum, quae velit maxime vitae alias dicta minima voluptate dolores cum corporis dolore et nam rem eius sunt sint ducimus explicabo quasi ex eligendi asperiores. Blanditiis explicabo fuga labore laudantium sed distinctio facilis.
+          </p>
+        </li>
+        <li class="boxGrowB">
+          <h3>flex-grow: 2</h3>
+          <p>
+            Asperiores, unde, cum velit obcaecati aspernatur a quisquam sit laudantium nisi nulla tempora repudiandae eos quidem esse eius dolorem et pariatur non iste fuga. Dolor, porro labore quaerat rerum numquam enim? Veniam, maxime, tempore aliquid culpa nesciunt asperiores quasi aperiam labore ipsa veritatis doloremque deserunt nisi non eos ex quibusdam quod tempora ratione aliquam autem dolores est minima sunt? Assumenda, numquam amet enim perferendis corporis cum voluptas sint fuga repellat illo a vel sunt.
+          </p>
+        </li>
+        <li class="boxGrowA">
+          <h3>flex-grow: 1</h3>
+          <p>
+            Sunt, asperiores molestias excepturi soluta aut officiis minima dolorum commodi quasi tempore dolore labore officia dolorem explicabo esse laudantium eveniet neque incidunt cupiditate fugiat vitae expedita aliquid sequi necessitatibus voluptatibus quibusdam veritatis cum! Quae, modi, architecto.
+          </p>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <img src="./assets/img/logo-3wa.png" alt="Logo 3W Academy">
+    <p>Propriété de la 3W Academy.</p>
+    <p>Ce matériel pédagogique est la propriété de la <a href="https://3wacademy.fr/">3W Academy</a>. Cet exercice a été réalisé par Stephane Pereck.</p>
+  </footer>
+</body>
+</html>
